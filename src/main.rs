@@ -4,7 +4,9 @@ use yew::prelude::*;
 fn app() -> Html {
     html! {
         <div>
-            <h1>{"Hello, world!"}</h1>
+            <h1>{"Weather Application"}</h1>
+            <h3>{"The current weather for Toronto is:"}</h3>
+            <p>{"It is currently sunny"}</p>
         </div>
     }
 }
